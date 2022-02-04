@@ -1,9 +1,14 @@
+@font-face {
+  font-family: "outfit";
+  src: url("./fonts/outfit-variable-font.ttf");
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 body {
+  font-family: "outfit";
   background-color: hsl(217, 54%, 11%);
 }
 .card {
