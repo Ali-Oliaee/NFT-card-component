@@ -10,9 +10,80 @@
 body {
   font-family: "outfit";
   background-color: hsl(217, 54%, 11%);
+  height: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .card {
-  width: 300px;
-  height: 400px;
+  width: 350px;
+  border-radius: 15px;
   background-color: hsl(216, 50%, 16%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 25px;
+}
+.product-image {
+  width: 310px;
+  border-radius: 10px;
+  margin: 15px 0;
+}
+.product-title {
+  text-align: left;
+  width: 100%;
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 15px;
+}
+.product-description {
+  color: hsl(215, 51%, 70%);
+  width: 100%;
+  font-size: 18px;
+}
+.product-info {
+  border-bottom: 1px solid hsl(215, 32%, 27%);
+  width: 100%;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.product-info img {
+  padding-inline-end: 8px;
+}
+.product-price,
+.product-sell-time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product-price {
+  color: hsl(178, 100%, 50%);
+}
+.product-sell-time {
+  color: hsl(215, 51%, 70%);
+}
+.user-info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px 0;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+  margin-inline-start: 2px;
+}
+.user-avatar {
+  border-radius: 50%;
+  width: 40px;
+  margin-inline-end: 10px;
+  border: 1px solid hsl(0, 0%, 100%);
+}
+p {
+  color: hsl(215, 51%, 70%);
 }
