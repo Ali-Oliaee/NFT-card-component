@@ -29,6 +29,7 @@ body {
 }
 .product-image-container {
   position: relative;
+  margin-top: 8px;
 }
 .product-image {
   width: 310px;
@@ -100,6 +101,7 @@ body {
   align-items: center;
   padding: 20px 0;
   width: 100%;
+  margin-bottom: 10px;
 }
 a {
   text-decoration: none;
@@ -115,4 +117,7 @@ a:hover {
   width: 40px;
   margin-inline-end: 10px;
   border: 1px solid hsl(0, 0%, 100%);
+}
+.user-info p {
+  color: hsl(215, 51%, 70%);
 }
